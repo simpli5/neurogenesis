@@ -1,11 +1,11 @@
                 <!-- Slider - Start -->
-                <section class="swiper-container mdl-color--white">
+                <section class="swiper-container mdl-color--white" style="width: 100%; aspect-ratio: 16/9;">
 					<div class="swiper-wrapper">
 						<div class="swiper-slide slide-bg--mangoes">
 							<div class="mdl-grid swiper-slide-content">
 								<div class="mdl-cell mdl-cell--12-col mdl-cell--middle">
 									<h1  class="mdl-typography--text-uppercase swiper-slide-content--headline">
-										Man<em>go</em>es
+										01
 									</h1>
 								</div>
 							</div>

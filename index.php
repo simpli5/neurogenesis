@@ -1,37 +1,72 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="{{app-description}}">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <title>{{app-title}}</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+    
+    <meta name="application-name" content="{{app-name}}" />
+		<meta name="author" content="{{app-author}}" />
+		<meta name="description" content="{{app-description}}" />
+		<meta name="keywords" content="{{app-keywords}}" />
+<!--
+    <base href="/" />
+-->
+    <meta name="format-detection" content="telephone=yes" />
+    
+    <title>{{app-name}}</title>
 
     <!-- Add to homescreen for Chrome on Android -->
-    <meta name="mobile-web-app-capable" content="yes">
-    <link rel="icon" sizes="192x192" href="assets/imgs/icons/android-desktop.png">
+    <meta name="mobile-web-app-capable" content="yes" />
+		<meta name="application-name" content="{{app-name}}" />
+    <link rel="icon" sizes="192x192" href="assets/imgs/icons/android-desktop.png" />
+		<link rel="icon" sizes="all" href="assets/imgs/icons/neurogenesis_monogram.svg" type="image/svg+xml" />
 
     <!-- Add to homescreen for Safari on iOS -->
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-title" content="{{app-title}}">
-    <link rel="apple-touch-icon-precomposed" href="assets/imgs/icons/ios-desktop.png">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="{{app-name}}" />
+    <link rel="apple-touch-icon-precomposed" href="assets/imgs/icons/ios-desktop.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="all" href="assets/imgs/icons/neurogenesis_monogram.svg" type="image/svg+xml" />
 
     <!-- Tile icon for Win8 (144x144 + tile color) -->
-    <meta name="msapplication-TileImage" content="assets/imgs/icons/ms-touch-icon-144x144-precomposed.png">
-    <meta name="msapplication-TileColor" content="#3372DF">
+    <meta name="msapplication-TileImage" content="assets/imgs/icons/ms-touch-icon-144x144-precomposed.png" />
+    <meta name="msapplication-TileImage" sizes="all" href="assets/imgs/icons/neurogenesis_monogram.svg" type="image/svg+xml" />
+    <meta name="msapplication-TileColor" content="#3372DF" />
 
-    <link rel="shortcut icon" href="assets/imgs/icons/favicon.png">
+    <link rel="shortcut icon" href="assets/imgs/icons/favicon.png" />
+    <link rel="shortcut icon" sizes="all" href="assets/imgs/icons/neurogenesis_monogram.svg" type="image/svg+xml" />
 
     <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
     <!--
     <link rel="canonical" href="http://www.example.com/">
     -->
 
+    <!-- Prefetch DNS for external assets -->
+		 <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+		 <link rel="dns-prefetch" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+		 <link rel="dns-prefetch" href="//cdnjs.cloudflare.com" />
+
+     <!-- Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="css/material.cyan-light_blue.min.css">
+    <!-- MaterialDesign-Webfont from http://materialdesignicons.com -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/7.2.96/css/materialdesignicons.min.css" integrity="sha512-LX0YV/MWBEn2dwXCYgQHrpa9HJkwB+S+bnBpifSOTO1No27TqNMKYoAn6ff2FBh03THAzAiiCwQ+aPX+/Qt/Ow==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google Material Design Lite CSS and JS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-lite/1.3.0/material-grid.min.css" integrity="sha512-VJeLA+7kmiV9FLqexXznK9XO8Y6+HokGVyO8Fs3cKttg0mYDrCh+wj5YAbdT9nWiHUyruCxQM9wlBF9heHPhDQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-lite/1.3.0/material.min.css" integrity="sha512-jEuZ7UJIkLuNJYX1ONC+vhYwf0uYbqbd3IoHO8bHRzl8mpB5aj1wLtjxzm5F7fzuqpNQvP1FZXYtgv6kWhVKvQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-lite/1.3.0/material.blue-pink.min.css" integrity="sha512-JBe4vp/+V1fnG5PRPxipjoPRV9sorIpKWWexHPWS88bvHiTDcq7PVPc+xIqN4P1H95ZFImAsJvVIY+gDzF+R3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/material-design-lite/1.3.0/material.min.js" integrity="sha512-mPYFRGkgrXvIQo9eMKjv5vuy73j7kXXelllj3W49nVCKarBVOUxNai2dnqVIp8QnnVS7AKHwdFyZSVibSqWtkw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <!-- Swiper Slider CSS and JS files CDNs  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/10.2.0/swiper-bundle.css" integrity="sha512-EDXaYrpumQKF+Ic8nuEsgJWBwMOhgwWvNINclFu91nx5VR4MeZ5xlUvyRaYQJTMImwbXSeDjtZMtTs8EB65Z0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/10.2.0/swiper-bundle.min.js" integrity="sha512-QwpsxtdZRih55GaU/Ce2Baqoy2tEv9GltjAG8yuTy2k9lHqK7VHHp3wWWe+yITYKZlsT3AaCj49ZxMYPp46iJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <!-- App Specific CSS' -->
     <link rel="stylesheet" href="css/styles.css">
+
     <style>
     #view-source,#ctas {
       position: fixed;
@@ -49,6 +84,7 @@
       <?php include('app_header.inc') ?>
       <?php include('app_drawer.inc') ?>
       <main class="mdl-layout__content mdl-color--grey-100">
+        <?php include('app_homepage_slider.inc') ?>
         <div class="mdl-grid app-content">
 		<!--
           <div class="app-charts mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--12-col mdl-grid">
@@ -186,6 +222,6 @@
 	<a id="ctas" href="tel://919940228438" class="mdl-button mdl-js-button mdl-button--fab mdl-button--raised mdl-js-ripple-effect mdl-button--colored mdl-color-text--white">
 		<i class="material-icons">phone</i>
 	</a>
-	<script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+	<!-- <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>| -->
   </body>
 </html>

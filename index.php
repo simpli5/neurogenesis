@@ -230,5 +230,180 @@
 		<i class="material-icons">phone</i>
 	</a>
 	<!-- <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>| -->
+  <script type="text/javascript">
+			console.log(navigator.platform);
+			function isAndroid()
+			{
+				return navigator.userAgent.match(/Android/i);
+			}
+
+			/* Check user ONLINE status */
+			function isUserOnline()
+			{
+				return navigator.onLine;
+			}
+
+			/* Check Status of AppDrawer - whether is open or close */
+			function isAppDrawerOpen()
+			{
+				return document.getElementById('AppDrawer').classList.contains('is-visible');
+			}
+
+			/* Toggle App Drawer */
+			function togggleAppDrawer()
+			{
+				document.getElementById('App').MaterialLayout.toggleDrawer();
+			}
+
+			/* Show Toast Bar with a message */
+			function showToastbar(msg)
+			{
+				var tbar = document.querySelector('.mdl-js-snackbar');
+				var tbarMsg = {message: msg};
+
+				tbar.MaterialSnackbar.showSnackbar(tbarMsg);
+			}
+
+			/* Stop bubbling and prevent default action App Event */
+			function stopAppEvent(evt)
+			{
+				evt.stopPropagation();
+				evt.preventDefault();
+				return false;
+			}
+
+			/* On document ready*/
+			$(document).ready(function () {
+
+				//initialize swiper when document ready
+				var mySwiper = new Swiper ('.swiper-container', {
+					// Optional parameters
+					direction: 'horizontal',
+					effect: 'slide',
+					setWrapperSize: true,
+					slidesPerColumnFill: 'row',
+					centeredSlides: true,
+					grabCursor: true,
+					slideToClickedSlide: true,
+					speed: 1000,
+					loop: true,
+					freemode: true,
+					pagination: {
+						el: '.swiper-pagination',
+					},
+
+					// Navigation arrows
+					navigation: {
+						nextEl: '.swiper-button-next',
+						prevEl: '.swiper-button-prev',
+					},
+
+					// And if we need scrollbar
+					scrollbar: {
+						el: '.swiper-scrollbar',
+						hide: true,
+						snapOnRelease: true,
+					},
+
+					//Autoplay
+					autoplay : {
+						delay: 1000,
+					}
+				});
+
+				if (!isAndroid())
+				{
+					$('[id$="whatsapp"]').css("display", "none");
+					//$('[class$="whatsapp"]').hide();
+				}
+
+				if (!isUserOnline())
+				{
+					showToastbar('You are Offline');
+				}
+
+			});
+
+
+			//mdl-rox-menu / mdl-drawer dropdown menus
+			(function() {
+				'use strict';
+
+				$('.mdl-navigation__toggle .mdl-navigation__link').on('click',function()
+				{
+					if($(this).parent().attr('class') !== undefined )
+					{
+						$(this).toggleClass('is_slide');
+						$(this).parent().children('.mdl-navigation__dropdown').slideToggle();
+					}
+				});
+
+				$('.mdl-close').on('click',function()
+				{
+					$(this).parent().remove();
+				});
+
+				$("[data-toggle]").map(function(key)
+				{
+					var toggle = $(this).attr('data-toggle');
+
+					$(toggle).toggleClass('hide_sb_right');
+					$('[data-toggle="'+toggle+'"]').click(function()
+					{
+						$(toggle).toggleClass("show_sb_right hide_sb_right");
+					});
+				}).get();
+
+				var all = $("[data-target]").map(function(key)
+				{
+					var target = $(this).attr('data-target');
+
+					$('[data-target="'+target+'"]').click(function()
+					{
+						$(target).show();
+						$('.dialog-close').click(function()
+						{
+							$(target).hide();
+						});
+					});
+				}).get();
+
+			}());
+
+			/* Stop propagating ALL dummy links - eg: <a href="#"></a> */
+			$('a[href="#"]').click(
+				function(evt) {
+					// Stop the event bubbling and the default action
+					stopAppEvent(evt);
+
+					/* If AppDrawer is open, close it. */
+					if (isAppDrawerOpen())
+					{
+						/* If event trigger is slide down menu, do not close the drawer */
+						if (! $(this).parent().hasClass('mdl-navigation__toggle'))
+						{
+							togggleAppDrawer();
+						}
+					}
+
+					return false;
+				}
+			);
+
+			$('a:not([href^="#"])').click(
+				function(evt) {
+					/* If AppDrawer is open, close it. */
+					if (isAppDrawerOpen())
+					{
+						/* If event trigger is slide down menu, do not close the drawer */
+						if (! $(this).parent().hasClass('mdl-navigation__toggle'))
+						{
+							togggleAppDrawer();
+						}
+					}
+				}
+			);
+
+		</script>
   </body>
 </html>

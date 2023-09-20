@@ -1,5 +1,5 @@
                 <!-- Slider - Start -->
-                <section class="swiper-container mdl-color--white" style="width: 100%; aspect-ratio: 16/9;">
+                <section class="swiper-container mdl-color--white">
 					<div class="swiper-wrapper">
 						<div class="swiper-slide slide-bg--mangoes">
 							<div class="mdl-grid swiper-slide-content">
@@ -14,7 +14,7 @@
 							<div class="mdl-grid swiper-slide-content">
 								<div class="mdl-cell mdl-cell--12-col mdl-cell--middle">
 									<h1  class="mdl-typography--text-uppercase swiper-slide-content--headline">
-										Pomegran<em>ate</em>s
+										0<em>2</em>
 									</h1>
 								</div>
 							</div>
@@ -23,7 +23,7 @@
 							<div class="mdl-grid swiper-slide-content">
 								<div class="mdl-cell mdl-cell--12-col mdl-cell--middle">
 									<h1 class="mdl-typography--text-uppercase swiper-slide-content--headline">
-										<em>Or</em>anges
+										<em>0</em>3
 									</h1>
 								</div>
 							</div>
@@ -32,7 +32,7 @@
 							<div class="mdl-grid swiper-slide-content">
 								<div class="mdl-cell mdl-cell--12-col mdl-cell--middle">
 									<h1 class="mdl-typography--text-uppercase swiper-slide-content--headline">
-											<em>Date</em>s
+											<em>0</em>4
 									</h1>
 								</div>
 							</div>
@@ -40,42 +40,42 @@
 						<div class="swiper-slide slide-bg--corns">
 							<div class="mdl-cell mdl-cell--12-col mdl-cell--middle">
 								<h1 class="mdl-typography--text-uppercase swiper-slide-content--headline">
-									<em>Sweet</em> Corn / Cobs
+									<em>0</em> 5
 								</h1>
 							</div>
 						</div>
 						<div class="swiper-slide slide-bg--honey">
 							<div class="mdl-cell mdl-cell--12-col mdl-cell--middle">
 								<h1 class="mdl-typography--text-uppercase swiper-slide-content--headline">
-									<em>Honey</em>
+									<em>0</em>6
 								</h1>
 							</div>
 						</div>
 						<div class="swiper-slide slide-bg--gooseberry">
 							<div class="mdl-cell mdl-cell--12-col mdl-cell--middle">
 								<h1 class="mdl-typography--text-uppercase swiper-slide-content--headline">
-									<em>Go</em>oseberry
+									<em>0</em>7
 								</h1>
 							</div>
 						</div>
 						<div class="swiper-slide slide-bg--onions">
 							<div class="mdl-cell mdl-cell--12-col mdl-cell--middle">
 								<h1 class="mdl-typography--text-uppercase swiper-slide-content--headline">
-									Oni<em>on</em>s
+									0<em>8</em>s
 								</h1>
 							</div>
 						</div>
 						<div class="swiper-slide slide-bg--potatoes">
 							<div class="mdl-cell mdl-cell--12-col mdl-cell--middle">
 								<h1 class="mdl-typography--text-uppercase swiper-slide-content--headline">
-									Pota<em>toes</em>
+									0<em>9</em>
 								</h1>
 							</div>
 						</div>
 						<div class="swiper-slide slide-bg--all-vegetables">
 							<div class="mdl-cell mdl-cell--12-col mdl-cell--middle">
 								<h1 class="mdl-typography--text-uppercase swiper-slide-content--headline">
-									All <em>India</em>n Vegetables
+									1 <em>0</em> s
 								</h1>
 							</div>
 						</div>

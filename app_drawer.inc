@@ -2,15 +2,17 @@
 
 			<aside id="AppDrawer" class="mdl-layout__drawer">
 				<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-					<header id="AppDrawerHeader"class="mdl-layout__header mdl-layout__header--waterfall mdl-card--expand mdl-shadow--2dp mdl-app-bg--primary">
+					<header id="AppDrawerHeader" class="mdl-layout__header mdl-layout__header--waterfall mdl-card--expand mdl-shadow--2dp mdl-app-bg--primary mdl-color--grey-300">
 						<div class="mdl-layout__header-row mdl-card--expand">
-							<img src="neurogenesis_monogram.php" class="" />
+							
+         					<img src="assets/imgs/neurogenesis_monogram.svg" class="app-avatar" />
+                     		
 						</div>
 					</header>
 					<section id="AppDrawerContent" class="mdl-layout__content">
 						<nav class="mdl-navigation scroll">
 							<div class="mdl-navigation__item mdl-menu__item--full-bleed-divider">
-								<a   class="mdl-navigation__link active"
+								<a   class="mdl-navigation__link"
 									 href="http://raneesfresh.com"
 									 id="drawer-link--shop-now">
 									<i class="x-icon material-icons">home</i>
@@ -54,7 +56,7 @@
 								<a   class="mdl-navigation__link"
 									 href="#">
 									<span class="x-icon material-icons">headset_mic</span>
-									Customer Support
+									Helpline
 								</a>
 								<ul class="mdl-navigation__dropdown">
 									<li class="mdl-navigation__item">
@@ -89,15 +91,15 @@
 							<div class="mdl-navigation__item mdl-navigation__toggle mdl-menu__item--full-bleed-divider">
 								<a   class="mdl-navigation__link"
 									 href="#">
-									<span class="x-icon material-icons">info</span>
-									About
+									<span class="x-icon material-icons">psychology</span>
+									Psychologists
 								</a>
 								<ul class="mdl-navigation__dropdown">
 									<li class="mdl-navigation__item">
 										<a   class="mdl-navigation__link"
 											 href="#">
 											<i class="x-icon material-icons">chevron_right</i>
-											<em>Ranees</em> Fresh
+											Dr. <strong>Justin</strong> Ashokar, PhD
 										</a>
 									</li>
 									<li class="mdl-navigation__item">
@@ -211,7 +213,7 @@
 										<a   class="mdl-navigation__link"
 											 href="#">
 											<i class="x-icon material-icons">chevron_right</i>
-											About &hellip;
+											About &hellip; Psychologists
 										</a>
 										<ul class="mdl-navigation__dropdown ml-4">
 											<li class="mdl-navigation__item">

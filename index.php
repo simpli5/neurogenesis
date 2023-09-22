@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
     
     <meta name="application-name" content="{{app-name}}" />
-		<meta name="author" content="{{app-author}}" />
-		<meta name="description" content="{{app-description}}" />
-		<meta name="keywords" content="{{app-keywords}}" />
+	<meta name="author" content="{{app-author}}" />
+	<meta name="description" content="{{app-description}}" />
+	<meta name="keywords" content="{{app-keywords}}" />
 <!--
     <base href="/" />
 -->
@@ -19,9 +19,9 @@
 
     <!-- Add to homescreen for Chrome on Android -->
     <meta name="mobile-web-app-capable" content="yes" />
-		<meta name="application-name" content="{{app-name}}" />
+	<meta name="application-name" content="{{app-name}}" />
     <link rel="icon" sizes="192x192" href="assets/imgs/icons/android-desktop.png" />
-		<link rel="icon" sizes="all" href="assets/imgs/icons/neurogenesis_monogram.svg" type="image/svg+xml" />
+	<link rel="icon" sizes="all" href="assets/imgs/icons/neurogenesis_monogram.svg" type="image/svg+xml" />
 
     <!-- Add to homescreen for Safari on iOS -->
     <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -44,11 +44,11 @@
     -->
 
     <!-- Prefetch DNS for external assets -->
-		 <link rel="dns-prefetch" href="//fonts.googleapis.com" />
-		 <link rel="dns-prefetch" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
-		 <link rel="dns-prefetch" href="//cdnjs.cloudflare.com" />
+	<link rel="dns-prefetch" href="//fonts.googleapis.com" />
+	<link rel="dns-prefetch" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+	<link rel="dns-prefetch" href="//cdnjs.cloudflare.com" />
 
-     <!-- Fonts -->
+    <!-- Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <!-- MaterialDesign-Webfont from http://materialdesignicons.com -->
@@ -65,7 +65,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/10.2.0/swiper-bundle.min.js" integrity="sha512-QwpsxtdZRih55GaU/Ce2Baqoy2tEv9GltjAG8yuTy2k9lHqK7VHHp3wWWe+yITYKZlsT3AaCj49ZxMYPp46iJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     
     <!-- jQuery JS -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <!-- App Specific CSS' -->
     <link rel="stylesheet" href="css/styles.css" />

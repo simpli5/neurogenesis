@@ -67,3 +67,12 @@
 	-moz-transform: rotate(-90deg);
 	-webkit-transform: rotate(-90deg);
 }
+.mdl-layout__drawer .mdl-navigation__link .byline{
+	display: inline-block;
+	padding-left: 2.6rem;
+	line-height: 1rem;
+	color: hsla(0, 0%, 41%, 1);
+}
+.mdl-layout__drawer .mdl-navigation__link .byline em{
+	font-weight: normal;
+}

@@ -3,90 +3,55 @@
 			<aside id="AppDrawer" class="mdl-layout__drawer">
 				<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
 					<header id="AppDrawerHeader" class="mdl-layout__header mdl-layout__header--waterfall mdl-card--expand mdl-shadow--2dp mdl-app-bg--primary mdl-color--grey-300">
-						<div class="mdl-layout__header-row mdl-card--expand">
-							
-         					<img src="assets/imgs/neurogenesis_monogram.svg" class="app-avatar" />
-                     		
+						<div class="mdl-layout__header-row mdl-card--expand" style="background: no-repeat center/50% url('assets/imgs/neurogenesis_monogram.php');drop-shadow(5px 5px 3px black);">
+							<!--
+         					<img src="assets/imgs/neurogenesis_monogram.php" class="app-avatar" />
+                     		-->
 						</div>
 					</header>
 					<section id="AppDrawerContent" class="mdl-layout__content">
 						<nav class="mdl-navigation scroll">
 							<div class="mdl-navigation__item mdl-menu__item--full-bleed-divider">
 								<a   class="mdl-navigation__link"
-									 href="http://raneesfresh.com"
-									 id="drawer-link--shop-now">
+									 href="http://neurogenesis.biz"
+									 id="drawer-link--home">
 									<i class="x-icon material-icons">home</i>
 									Home
-									<span class="byline" style="display: none;">
-										for fresh <em>indian fruits, honey &amp; vegetables</em>
-									</span>
-								</a>
-							</div>
-							<div class="mdl-navigation__item mdl-menu__item--full-bleed-divider">
-								<a   class="mdl-navigation__link"
-									 href="http://raneesfresh.com/shoponline">
-									<i class="x-icon material-icons">shopping_cart</i>
-									<em>Shop</em> Now
 									<span class="byline">
-										Be Healthy yet <em>pocket friendly</em>
+										description for <em>Home </em> link
 									</span>
 								</a>
 							</div>
 							<div class="mdl-navigation__item mdl-menu__item--full-bleed-divider">
 								<a   class="mdl-navigation__link"
-									 href="http://wholesale.raneesfresh.com/shoponline">
+									 href="http://neurogenesis.biz/index.php#about_neurogenesis">
+									<!--<i class="x-icon material-icons">shopping_cart</i>-->
+									<img src="assets/imgs/neurogenesis_monogram.php" class="app-avatar" style="filter: grayscale(100%); width: 1.5rem; margin-right: 1rem;" />
+									About <em>Neurogenesis</em>
+									<span class="byline">
+										Description for <em>About Neurogenesis</em> link
+									</span>
+								</a>
+							</div>
+							<div class="mdl-navigation__item mdl-menu__item--full-bleed-divider">
+								<a   class="mdl-navigation__link"
+									 href="http://neurogenesis.biz/index.php#neurogenesis_services">
 									<i class="x-icon material-icons">widgets</i>
-									Buy <em>Bulk</em>
+									Our <em>Services</em>
 									<span class="byline">
-										For <em>orders above 50kgs</em> per product
+										Description for <em>Services Offered</em> at Neurogenesis
 									</span>
 								</a>
 							</div>
 							<div class="mdl-navigation__item mdl-menu__item--full-bleed-divider">
 								<a   class="mdl-navigation__link"
-									 href="http://exports.raneesfresh.com/shoponline">
+									 href="http://neurogenesis.biz#referrals">
 									<i class="x-icon material-icons">language</i>
-									<em>Inter</em>national
+									<em>Referrals</em>
 									<span class="byline">
-										For <em>international orders above 50kgs</em> per product
+										Description for <em>Referrals</em> link
 									</span>
 								</a>
-							</div>
-							<div class="mdl-navigation__item mdl-navigation__toggle mdl-menu__item--full-bleed-divider">
-								<a   class="mdl-navigation__link"
-									 href="#">
-									<span class="x-icon material-icons">headset_mic</span>
-									Helpline
-								</a>
-								<ul class="mdl-navigation__dropdown">
-									<li class="mdl-navigation__item">
-										<a   class="mdl-navigation__link"
-											 href="tel://+919940084365">
-											<i class="x-icon material-icons">phone</i>
-											[+91] 99400 84365
-										</a>
-									</li>
-									<li class="mdl-navigation__item">
-										<a   class="mdl-navigation__link"
-											 href="#">
-											<i class="x-icon fab fa-whatsapp-square"></i>
-											[+91] 99400 84365
-										</a>
-									</li>
-									<li class="mdl-navigation__item">
-										<a   class="mdl-navigation__link"
-											 href="mailto:wecare@raneesfresh.com">
-											<i class="x-icon material-icons">mail</i>wecare@raneesfresh.com
-										</a>
-									</li>
-									<li class="mdl-navigation__item">
-										<a   class="mdl-navigation__link"
-											 href="RaneesFresh.vcard" download>
-											<i class="x-icon material-icons">file_download</i>
-											Download vCard
-										</a>
-									</li>
-								</ul>
 							</div>
 							<div class="mdl-navigation__item mdl-navigation__toggle mdl-menu__item--full-bleed-divider">
 								<a   class="mdl-navigation__link"
@@ -98,10 +63,15 @@
 									<li class="mdl-navigation__item">
 										<a   class="mdl-navigation__link"
 											 href="#">
-											<i class="x-icon material-icons">chevron_right</i>
-											Dr. <strong>Justin</strong> Ashokar, PhD
+											<!--<i class="x-icon material-icons">chevron_right</i>-->
+											<img src="assets/imgs/photos_psychologists_profile/justin_ashokar.jpeg" class="app-avatar" style="filter: grayscale(100%); width: 1.5rem; height: 1.5rem;" />
+											Dr. <strong>Justine</strong> Ashokar, PhD
+											<span class="byline">
+												<em>Registered Psychologist</em>
+											</span>
 										</a>
 									</li>
+									<!--
 									<li class="mdl-navigation__item">
 										<a   class="mdl-navigation__link"
 											 href="#">
@@ -109,153 +79,59 @@
 											<em>ARS</em> Exports
 										</a>
 									</li>
-								</ul>
-							</div>
-							<!--
-							<div class="mdl-navigation__item mdl-navigation__toggle mdl-menu__item--full-bleed-divider">
-								<a   class="mdl-navigation__link"
-									 href="#">
-									<span class="x-icon material-icons">shopping_cart</span>
-									<em>Shop</em> Online
-								</a>
-								<ul class="mdl-navigation__dropdown">
-									<li class="mdl-navigation__item">
-										<a   class="mdl-navigation__link"
-											 href="http://raneesfresh.com/shoponline">
-											<i class="x-icon material-icons">chevron_right</i>
-											<em>Shop</em> Now
-										</a>
-									</li>
-									<li class="mdl-navigation__item">
-										<a   class="mdl-navigation__link"
-											 href="#">
-											<i class="x-icon material-icons">chevron_right</i>
-											Sign-In
-										</a>
-									</li>
-									<li class="mdl-navigation__item">
-										<a   class="mdl-navigation__link"
-											 href="#">
-											<i class="x-icon material-icons">chevron_right</i>
-											Sign-Up
-										</a>
-									</li>
+									-->
 								</ul>
 							</div>
 							<div class="mdl-navigation__item mdl-navigation__toggle mdl-menu__item--full-bleed-divider">
 								<a   class="mdl-navigation__link"
 									 href="#">
-									<span class="x-icon material-icons">widgets</span>
-									Whole<em>sale</em>
+									<span class="x-icon material-icons">headset_mic</span>
+									Helpline
 								</a>
 								<ul class="mdl-navigation__dropdown">
 									<li class="mdl-navigation__item">
 										<a   class="mdl-navigation__link"
-											 href="http://wholesale.raneesfresh.com/shoponline">
-											<i class="x-icon material-icons">chevron_right</i>
-											Buy <em>Bulk</em>
+											 href="tel://+16054840560">
+											<i class="x-icon material-icons">phone</i>
+											(605) 484-0560
 										</a>
 									</li>
 									<li class="mdl-navigation__item">
 										<a   class="mdl-navigation__link"
 											 href="#">
-											<i class="x-icon material-icons">chevron_right</i>
-											Sign-In
+											<i class="x-icon fab fa-whatsapp-square"></i>
+											(605) 484-0560
 										</a>
 									</li>
 									<li class="mdl-navigation__item">
 										<a   class="mdl-navigation__link"
 											 href="#">
-											<i class="x-icon material-icons">chevron_right</i>
-											Sign-Up
+											<i class="x-icon fab fa-telegram"></i>
+											(605) 484-0560
+										</a>
+									</li>
+									<li class="mdl-navigation__item">
+										<a   class="mdl-navigation__link"
+											 href="#">
+											<i class="x-icon fab fa-snapchat"></i>
+											(605) 484-0560
+										</a>
+									</li>
+									<li class="mdl-navigation__item">
+										<a   class="mdl-navigation__link"
+											 href="mailto:wecare@neurogenesis.biz">
+											<i class="x-icon material-icons">mail</i>wecare@neurogenesis.biz
+										</a>
+									</li>
+									<li class="mdl-navigation__item">
+										<a   class="mdl-navigation__link"
+											 href="assets/vcards/neurogenesis.vcard" download>
+											<i class="x-icon material-icons">file_download</i>
+											Download vCard
 										</a>
 									</li>
 								</ul>
 							</div>
-							<div class="mdl-navigation__item mdl-navigation__toggle mdl-menu__item--full-bleed-divider">
-								<a   class="mdl-navigation__link"
-									 href="#">
-									<span class="x-icon material-icons">language</span>
-									<em>Inter</em>national
-								</a>
-								<ul class="mdl-navigation__dropdown">
-									<li class="mdl-navigation__item">
-										<a   class="mdl-navigation__link"
-											 href="http://exports.raneesfresh.com/shoponline">
-											<i class="x-icon material-icons">chevron_right</i>
-											<em>Order</em> Now
-										</a>
-									</li>
-									<li class="mdl-navigation__item">
-										<a   class="mdl-navigation__link"
-											 href="#">
-											<i class="x-icon material-icons">chevron_right</i>
-											Sign-In
-										</a>
-									</li>
-									<li class="mdl-navigation__item">
-										<a   class="mdl-navigation__link"
-											 href="#">
-											<i class="x-icon material-icons">chevron_right</i>
-											Sign-Up
-										</a>
-									</li>
-								</ul>
-							</div>
-							<div class="mdl-navigation__item mdl-navigation__toggle mdl-menu__item--full-bleed-divider">
-								<a   class="mdl-navigation__link"
-									 href="#">
-									<span class="x-icon material-icons">info</span>
-									Infos &hellip;
-								</a>
-								<ul class="mdl-navigation__dropdown">
-									<li class="mdl-navigation__item mdl-navigation__toggle">
-										<a   class="mdl-navigation__link"
-											 href="#">
-											<i class="x-icon material-icons">chevron_right</i>
-											About &hellip; Psychologists
-										</a>
-										<ul class="mdl-navigation__dropdown ml-4">
-											<li class="mdl-navigation__item">
-												<a   class="mdl-navigation__link"
-													 href="#">
-													<i class="x-icon material-icons">chevron_right</i>
-													<em>Ranee&apos;s</em> Fresh
-												</a>
-											</li>
-											<li class="mdl-navigation__item">
-												<a   class="mdl-navigation__link"
-													 href="#">
-													<i class="x-icon material-icons">chevron_right</i>
-													<em>ARS</em> Exports
-												</a>
-											</li>
-										</ul>
-								</li>
-									<li class="mdl-navigation__item">
-										<a   class="mdl-navigation__link"
-											 href="#">
-											<i class="x-icon material-icons">chevron_right</i>
-											Terms of usage
-										</a>
-									</li>
-									<li class="mdl-navigation__item">
-										<a   class="mdl-navigation__link"
-											 href="#">
-											<i class="x-icon material-icons">chevron_right</i>
-											Privacy Policy
-										</a>
-									</li>
-									<li class="mdl-navigation__item">
-										<a   class="mdl-navigation__link"
-											 href="#">
-											<i class="x-icon material-icons">chevron_right</i>
-											&hellip;
-										</a>
-									</li>
-								</ul>
-							</div>
-							-->
 						</nav>
 					</section>
 				</div>

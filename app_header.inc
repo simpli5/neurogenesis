@@ -13,6 +13,11 @@
             </div>
           </div>
           -->
+
+          <a href="#">
+            <img src="assets\imgs\photos_psychologists_profile\justin_ashokar.jpeg"  class="app-avatar" style="margin-right: 2rem;" />
+          </a>
+          
           <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="hdrbtn">
             <i class="material-icons">more_vert</i>
           </button>

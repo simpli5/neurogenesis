@@ -3,9 +3,10 @@
 			<aside id="AppDrawer" class="mdl-layout__drawer">
 				<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
 					<header id="AppDrawerHeader" class="mdl-layout__header mdl-layout__header--waterfall mdl-card--expand mdl-shadow--2dp mdl-app-bg--primary mdl-color--grey-300">
-						<div class="mdl-layout__header-row mdl-card--expand" style="background: no-repeat center/50% url('assets/imgs/neurogenesis_monogram.php');drop-shadow(5px 5px 3px black);">
+						<div class="mdl-layout__header-row mdl-card--expand" style="background: no-repeat center/contain url('assets/imgs/neurogenesis_monogram.php?stroke_brain_width=0&fill_brain_color=fff&fill_text_n_color=fff&stroke_text_n_color=fff'); filter: drop-shadow(-1px -1px 0 silver);">
+						<!--<div class="mdl-layout__header-row mdl-card--expand" style="">-->
 							<!--
-         					<img src="assets/imgs/neurogenesis_monogram.php" class="app-avatar" />
+         					<img src="assets/imgs/neurogenesis_monogram.php?stroke_brain_width=0&fill_brain_color=fff&fill_text_n_color=fff&stroke_text_n_color=fff" class="" style="display: block; height: 50%; filter: drop-shadow(-1px -1px 0 silver);" />
                      		-->
 						</div>
 					</header>
@@ -26,7 +27,7 @@
 								<a   class="mdl-navigation__link"
 									 href="http://neurogenesis.biz/index.php#about_neurogenesis">
 									<!--<i class="x-icon material-icons">shopping_cart</i>-->
-									<img src="assets/imgs/neurogenesis_monogram.php" class="app-avatar" style="filter: grayscale(100%); width: 1.5rem; margin-right: 1rem;" />
+									<img src="assets/imgs/neurogenesis_monogram.php" class="app-avatar x-icon" style="filter: grayscale(100%); width: 1.5rem; margin-right: 1rem;" />
 									About <em>Neurogenesis</em>
 									<span class="byline">
 										Description for <em>About Neurogenesis</em> link
@@ -64,7 +65,7 @@
 										<a   class="mdl-navigation__link"
 											 href="#">
 											<!--<i class="x-icon material-icons">chevron_right</i>-->
-											<img src="assets/imgs/photos_psychologists_profile/justin_ashokar.jpeg" class="app-avatar" style="filter: grayscale(100%); width: 1.5rem; height: 1.5rem;" />
+											<img src="assets/imgs/photos_psychologists_profile/justin_ashokar.jpeg" class="app-avatar x-icon" style="filter: grayscale(100%); width: 2rem; height: 2rem;" />
 											Dr. <strong>Justine</strong> Ashokar, PhD
 											<span class="byline">
 												<em>Registered Psychologist</em>

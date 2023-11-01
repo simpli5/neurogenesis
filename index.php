@@ -173,6 +173,85 @@
             </div>
           </div>
 		-->
+      <img style="width: 34%; border-radius: 50%;" src="assets/imgs/photos_psychologists_profile/justin_ashokar.jpeg" />
+      <h1 class="mdl-layout-title">Dr. <strong>Justine Ashokar</strong> <small style="font-size: 1.2rem;">Ph.D.,</small></h1>
+      <p>Registered Psychologist</p>
+      <section>
+      	<ul>
+         	<li>
+            	<h4>Doctor of Philosophy - Ph.D</h4>
+               	<p>Clinical Psychology (Neuropsychology)</p>
+            </li>
+         	<li>
+            	<h4>Master of Science - MS</h4>
+               	<p>Clinical Psychology (Neuropsychology)</p>
+            </li>
+         	<li>
+            	<h4>Master of Science - MS</h4>
+               	<p>Counselling</p>
+            </li>
+        </ul>
+      </section>
+      <section>
+      	<div>Communication</div>
+        <div>English (US, UK), Tamil</div>
+        <div>Working Hours</div>
+        <div>Mon-Fri</div>
+        
+      </section>
+      <details open="open">
+      	<summary>Accreditations</summary>
+      	<ul>
+      		<li>
+        	 	<h4>President</h4>
+         	   <p>South Dakota Psychological Association (SDPA)</p>
+         	</li>
+         </ul>
+      </details>
+      
+      <details open="open">
+      	<summary>Guides to overcome with expertise and experience</summary>
+      	<ul>
+         	<li>Anger Management</li>
+            <li>Anxiety and Depression</li>
+            <li>Borderline / Personality Disorders</li>
+            <li>Childhood Abuse</li>
+            <li>Disordered Eating</li>
+            <li>Drug Abuse and Addictions</li>
+            <li>Grief and Loss</li>
+            <li>Life Transitions</li>
+            <li>Obsessive Compulsive Disorder</li>
+            <li>Overwhelming Emotions</li>
+            <li>Relationship</li>
+            <li>Self Development and Coaching</li>
+            <li>Self Harming Behaviours</li>
+            <li>Social Anxiety</li>
+            <li>Stress and Work Related Issues</li>
+            <li>Suicidal Ideation</li>
+            <li>Trauma and PTSD</li>
+        </ul>
+      </details>
+      <details open="open">
+      	<summary>Assesses using</summary>
+        <ul>
+        	<li>Intellectual and Academic Assessments</li>
+           	<li>Forensic Psychological Evaluations</li>
+            <li>Neuropsychological Assessments</li>
+            <li>Personality Assessments</li>
+        </ul>
+      </details>
+      <details open="open">
+      	<summary>Counselling style</summary>
+        <ul>
+        	<li>Acceptance and Commitment Therapy (ACT)</li>
+           	<li>Cognitive Behavioural Therapy (CBT)</li>
+            <li>Dialectical Behavioural Therapy (DBT)</li>
+            <li>Eye Movement Desensitization and Reprocessing (EMDR)</li>
+           	<li>Mindfulness Based Therapy (MBT)</li> 
+            <li>Motivational Interviewing (MI)</li>
+            <li>Solution Focused Therapy (SFT)</li>
+        </ul>
+      </details>
       </div>
     </main>
     <footer>

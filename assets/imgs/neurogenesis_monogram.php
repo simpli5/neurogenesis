@@ -3,11 +3,16 @@
 header('Content-Type: image/svg+xml');
 
 $sanitize_hex_color_regex = "|^#([A-Fa-f0-9]{3}){1,2}$|";
+//$sanitize_hex_color_regex = "/^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$/";
+$vaditate_color_regex = "/^(#?([a-f\d]{3,4}|[a-f\d]{6}|[a-f\d]{8})|rgb\((0|255|25[0-4]|2[0-4]\d|1\d\d|0?\d?\d),(0|255|25[0-4]|2[0-4]\d|1\d\d|0?\d?\d),(0|255|25[0-4]|2[0-4]\d|1\d\d|0?\d?\d)\)|rgba\((0|255|25[0-4]|2[0-4]\d|1\d\d|0?\d?\d),(0|255|25[0-4]|2[0-4]\d|1\d\d|0?\d?\d),(0|255|25[0-4]|2[0-4]\d|1\d\d|0?\d?\d),(0|0?\.\d|1(\.0)?)\)|hsl\((0|360|35\d|3[0-4]\d|[12]\d\d|0?\d?\d),(0|100|\d{1,2})%,(0|100|\d{1,2})%\)|hsla\((0|360|35\d|3[0-4]\d|[12]\d\d|0?\d?\d),(0|100|\d{1,2})%,(0|100|\d{1,2})%,(0?\.\d|1(\.0)?)\))$/";
 
-$fill_brain_color = filter_input(INPUT_GET, 'fill_brain_color', FILTER_VALIDATE_REGEXP,["options"=>["regexp"=>"|^#([A-Fa-f0-9]{3}){1,2}$|",'default'=>'#000']]);
+$fill_brain_color = filter_input(INPUT_GET, 'fill_brain_color', FILTER_VALIDATE_REGEXP,["options"=>["regexp"=>"/^#(.*)/",'default'=>'#000']]);
+$fill_brain_color = isset( $_GET['fill_brain_color'] ) ?  sanitize_hex_color( '#' . $_GET['fill_brain_color'] ): '#000';
 $fill_text_n_color = filter_input(INPUT_GET, 'fill_text_n_color', FILTER_VALIDATE_REGEXP,["options"=>["regexp"=>"|^#([A-Fa-f0-9]{3}){1,2}$|",'default'=>'#000']]);
+$fill_text_n_color = isset( $_GET['fill_text_n_color'] ) ?  sanitize_hex_color( '#' . $_GET['fill_text_n_color'] ): '#000';
 $stroke_brain_color = filter_input(INPUT_GET, 'stroke_brain_color', FILTER_VALIDATE_REGEXP,["options"=>["regexp"=>"|^#([A-Fa-f0-9]{3}){1,2}$|",'default'=>'#fff']]);
 $stroke_text_n_color = filter_input(INPUT_GET, 'stroke_text_n_color', FILTER_VALIDATE_REGEXP,["options"=>["regexp"=>"|^#([A-Fa-f0-9]{3}){1,2}$|",'default'=>'#000']]);
+$stroke_text_n_color = isset( $_GET['stroke_text_n_color'] ) ?  sanitize_hex_color( '#' . $_GET['stroke_text_n_color'] ): '#000';
 
 $stroke_brain_width = filter_input( INPUT_GET, 'stroke_brain_width', FILTER_VALIDATE_INT, array("options" => array( "default" => 0, "min_range" => 0, "max_range" => 20 )));
 $stroke_text_n_width = filter_input( INPUT_GET, 'stroke_text_n_width', FILTER_VALIDATE_INT, array("options" => array( "default" => 10, "min_range" => 0, "max_range" => 20 )));

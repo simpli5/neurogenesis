@@ -173,7 +173,7 @@
             </div>
           </div>
 		-->
-        <img style="width: 34%; border-radius: 50%;" src="assets/imgs/photos_psychologists_profile/justin_ashokar.jpeg" />
+        <img style="width: 34%; border-radius: 50%; display: none;" src="assets/imgs/photos_psychologists_profile/justin_ashokar.png" />
         <h1 class="mdl-layout-title">Dr. <strong>Justine Ashokar</strong> <small style="font-size: 1.2rem;">Ph.D.,</small></h1>
         <p>Registered Psychologist</p>
         <section>

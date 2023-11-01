@@ -56,7 +56,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/7.2.96/css/materialdesignicons.min.css" integrity="sha512-LX0YV/MWBEn2dwXCYgQHrpa9HJkwB+S+bnBpifSOTO1No27TqNMKYoAn6ff2FBh03THAzAiiCwQ+aPX+/Qt/Ow==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- FontAwesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" type="text/css">
-  
+
   <!-- Google Material Design Lite CSS and JS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-lite/1.3.0/material-grid.min.css" integrity="sha512-VJeLA+7kmiV9FLqexXznK9XO8Y6+HokGVyO8Fs3cKttg0mYDrCh+wj5YAbdT9nWiHUyruCxQM9wlBF9heHPhDQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-lite/1.3.0/material.min.css" integrity="sha512-jEuZ7UJIkLuNJYX1ONC+vhYwf0uYbqbd3IoHO8bHRzl8mpB5aj1wLtjxzm5F7fzuqpNQvP1FZXYtgv6kWhVKvQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -173,46 +173,46 @@
             </div>
           </div>
 		-->
-      <img style="width: 34%; border-radius: 50%;" src="assets/imgs/photos_psychologists_profile/justin_ashokar.jpeg" />
-      <h1 class="mdl-layout-title">Dr. <strong>Justine Ashokar</strong> <small style="font-size: 1.2rem;">Ph.D.,</small></h1>
-      <p>Registered Psychologist</p>
-      <section>
-      	<ul>
-         	<li>
-            	<h4>Doctor of Philosophy - Ph.D</h4>
-               	<p>Clinical Psychology (Neuropsychology)</p>
+        <img style="width: 34%; border-radius: 50%;" src="assets/imgs/photos_psychologists_profile/justin_ashokar.jpeg" />
+        <h1 class="mdl-layout-title">Dr. <strong>Justine Ashokar</strong> <small style="font-size: 1.2rem;">Ph.D.,</small></h1>
+        <p>Registered Psychologist</p>
+        <section>
+          <ul>
+            <li>
+              <h4>Doctor of Philosophy - Ph.D</h4>
+              <p>Clinical Psychology (Neuropsychology)</p>
             </li>
-         	<li>
-            	<h4>Master of Science - MS</h4>
-               	<p>Clinical Psychology (Neuropsychology)</p>
+            <li>
+              <h4>Master of Science - MS</h4>
+              <p>Clinical Psychology (Neuropsychology)</p>
             </li>
-         	<li>
-            	<h4>Master of Science - MS</h4>
-               	<p>Counselling</p>
+            <li>
+              <h4>Master of Science - MS</h4>
+              <p>Counselling</p>
             </li>
-        </ul>
-      </section>
-      <section>
-      	<div>Communication</div>
-        <div>English (US, UK), Tamil</div>
-        <div>Working Hours</div>
-        <div>Mon-Fri</div>
-        
-      </section>
-      <details open="open">
-      	<summary>Accreditations</summary>
-      	<ul>
-      		<li>
-        	 	<h4>President</h4>
-         	   <p>South Dakota Psychological Association (SDPA)</p>
-         	</li>
-         </ul>
-      </details>
-      
-      <details open="open">
-      	<summary>Guides to overcome with expertise and experience</summary>
-      	<ul>
-         	<li>Anger Management</li>
+          </ul>
+        </section>
+        <section>
+          <div>Communication</div>
+          <div>English (US, UK), Tamil</div>
+          <div>Working Hours</div>
+          <div>Mon-Fri</div>
+
+        </section>
+        <details open="open">
+          <summary>Accreditations</summary>
+          <ul>
+            <li>
+              <h4>President</h4>
+              <p>South Dakota Psychological Association (SDPA)</p>
+            </li>
+          </ul>
+        </details>
+
+        <details open="open">
+          <summary>Guides to overcome with expertise and experience</summary>
+          <ul>
+            <li>Anger Management</li>
             <li>Anxiety and Depression</li>
             <li>Borderline / Personality Disorders</li>
             <li>Childhood Abuse</li>
@@ -229,34 +229,77 @@
             <li>Stress and Work Related Issues</li>
             <li>Suicidal Ideation</li>
             <li>Trauma and PTSD</li>
-        </ul>
-      </details>
-      <details open="open">
-      	<summary>Assesses using</summary>
-        <ul>
-        	<li>Intellectual and Academic Assessments</li>
-           	<li>Forensic Psychological Evaluations</li>
+          </ul>
+        </details>
+        <details open="open">
+          <summary>Assesses using</summary>
+          <ul>
+            <li>Intellectual and Academic Assessments</li>
+            <li>Forensic Psychological Evaluations</li>
             <li>Neuropsychological Assessments</li>
             <li>Personality Assessments</li>
-        </ul>
-      </details>
-      <details open="open">
-      	<summary>Counselling style</summary>
-        <ul>
-        	<li>Acceptance and Commitment Therapy (ACT)</li>
-           	<li>Cognitive Behavioural Therapy (CBT)</li>
+          </ul>
+        </details>
+        <details open="open">
+          <summary>Counselling style</summary>
+          <ul>
+            <li>Acceptance and Commitment Therapy (ACT)</li>
+            <li>Cognitive Behavioural Therapy (CBT)</li>
             <li>Dialectical Behavioural Therapy (DBT)</li>
             <li>Eye Movement Desensitization and Reprocessing (EMDR)</li>
-           	<li>Mindfulness Based Therapy (MBT)</li> 
+            <li>Mindfulness Based Therapy (MBT)</li>
             <li>Motivational Interviewing (MI)</li>
             <li>Solution Focused Therapy (SFT)</li>
-        </ul>
-      </details>
+          </ul>
+        </details>
       </div>
+
+      <footer class="mdl-mega-footer">
+        <div class="mdl-mega-footer__top-section">
+          <div class="mdl-mega-footer__left-section">
+            <button class="mdl-mega-footer__social-btn"></button>
+            <button class="mdl-mega-footer__social-btn"></button>
+            <button class="mdl-mega-footer__social-btn"></button>
+          </div>
+          <div class="mdl-mega-footer__right-section">
+            <a href="#">Introduction</a>
+            <a href="#">App Status Dashboard</a>
+            <a href="#">Terms of Service</a>
+          </div>
+        </div>
+        <div class="mdl-mega-footer__middle-section">
+          <div class="mdl-mega-footer__drop-down-section">
+            <h1 class="mdl-mega-footer__heading">Learning and Support</h1>
+            <ul class="mdl-mega-footer__link-list">
+              <li><a href="#">Resource Center</a></li>
+              <li><a href="#">Help Center</a></li>
+              <li><a href="#">Community</a></li>
+              <li><a href="#">Learn with Google</a></li>
+              <li><a href="#">Small Business Community</a></li>
+              <li><a href="#">Think Insights</a></li>
+            </ul>
+          </div>
+          <div class="mdl-mega-footer__drop-down-section">
+            <h1 class="mdl-mega-footer__heading">Just for Developers</h1>
+            <ul class="mdl-mega-footer__link-list">
+              <li><a href="#">Google Developers</a></li>
+              <li><a href="#">AdWords API</a></li>
+              <li><a href="#">AdWords Scipts</a></li>
+              <li><a href="#">AdWords Remarketing Tag</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="mdl-mega-footer__bottom-section">
+          <div class="mdl-logo">
+            More Information
+          </div>
+          <ul class="mdl-mega-footer__link-list">
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Privacy and Terms</a></li>
+          </ul>
+        </div>
+      </footer>
     </main>
-    <footer>
-      Footer
-    </footer>
   </div>
   <!--
       <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" style="position: fixed; left: -1000px; height: -1000px;">
